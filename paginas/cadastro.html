@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styleForm.css">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <main class="container">
+            <h2>Cadastro de usuarios</h2>
+            <form action="">
+        <div class="input-field">
+            <input type="text" id="nome" name="nome" placeholder="digite seu nome...">
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="text" id="endereco" name="endereco" placeholder="digite seu endereco...">
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="text" id="E-mail" name="E-mail" placeholder="digite seu E-mail...">
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="text" id="cidade" name="cidade" placeholder="digite sua cidade...">
+            <div class="underline"></div>
+        </div>
+        <span>Estado:</span>
+
+        <select id="estado" >
+            <option value="MG" selected>Minas Gerais</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio De Janeiro</option>
+        </select> <br><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino<br><br>
+
+        <span>Escolha os Filmes que você mais gosta:</span> <br><br>
+        <div class="input-checkbox">
+            <input type="checkbox" name="filme" value="Ação">Ação
+        </div>
+        <div class="input-checkbox">
+            <input type="checkbox" name="filme" value="Comédia">Comédia
+        </div>
+        <div class="input-checkbox">
+        <input type="checkbox" name="filme" value="Terror">Terror 
+        </div>
+        <div class="input-checkbox">
+        <input type="checkbox" name="filme" value="Romance">Romance 
+        </div>
+        <div class="input-checkbox">
+            <input type="checkbox" name="filme" value="Suspense">Suspense 
+        </div>
+        <div class="input-checkbox">
+            <input type="checkbox" name="filme" value="Drama">Drama
+        </div> 
+        <div class="input-checkbox">
+            <input type="checkbox" name="filme" value="Aventura">Aventura
+        </div> <br>
+
+        <div class="input-field">
+            <input type="text" id="usuario" name="usuario" placeholder="digite seu usuario...">
+            <div class="underline"></div>
+        </div>
+        <div class="input-field">
+            <input type="password" id="senha" name="senha" placeholder="digite sua senha...">
+            <div class="underline"></div>
+        </div>
+        <div style = "text-align: center;">
+            <input type="submit" value="cancelar">
+            <input type="submit" value="Limpar">
+            <input type="submit" value="cadastrar">
+        </div>
+    </form>
+
+    <div class="botoes">
+            <a href="../index.html">voltar</a>
+    </div>
+
+        </main>
+        
+
+    </body>
+</html>
